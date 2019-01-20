@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Roger Hwang's Dev Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./favicon.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<nav role="navigation">
+		<ul class="nav-ul">
+			<li class="navbar"><a class="navlinks" href="#bioSec"><img src="./images/bio.png" alt="Bio icon made by Vectors Market" style="width:40px"><div id="bio">BIO</div></a></li>
+			<li class="navbar navbar-middle"><a class="navlinks" href="#portLink"><img src="./images/portfolio.png" alt="Portfolio icon made by Freepic" style="width:40px"><div id="port">PORTFOLIO</div></a></li>
+			<li class="navbar"><a class="navlinks" href="#contactSec"><img src="./images/contact.png" alt="Contact icon made by Freepic" style="width:40px"><div id="contact">CONTACT</div></a></li>
+		</ul>
+	</nav>
+	<main role="main">
+		<header role="banner">
+			<h1>Roger Hwang</h1>
+			<img class="portrait" src="./images/Selfie.JPG" alt="portrait">
+			<p class="caption" aria-label="caption">__Web Developer driven to transform code to its visual and functional form__</p>
+		</header>
+
+		<section id="bioSec">
+			<div class="divider">-</div>
+			<h2>About Me</h2>
+			<div class="bio-detail">
+				<p>Greetings! I'm a California native who loves to explore scenic hiking trails, have a good back and forth 
+				tennis rally, expand my mind through podcasts, and, last but not least, hone my craft in all things web 
+				development.</p>
+				<p>My first interest in web development came when I had to write code to make a static ball roll continuously 
+				starting from the left side of the screen to the right. I was amazed at how a few lines of code can have 
+				such a powerful effect. I couldn’t wait to build even more compelling things! Further, I loved solving 
+				problems logically which naturally fits my personality. With a prior history of being good in math 
+				along with being a CPA, I also had transferrable skills towards web development.</p>
+				<p>Eventually, this led me to join an intensive Full Stack Web Development program at Thinkful to prepare 
+				me for a Web Development career. Through 40-50 hours a week dedication to the curriculum, I have gained 
+				good ground in <span>HTML/CSS, Javascript, and the MERN stack</span>. I have built three polished 
+				Full Stack Web Applications along with other projects you can peruse below. To this day, I am continuously 
+				learning, solving algorithms, and seeking out new projects to work on. Please see my Contact section for any 
+				work related inquiries.</p>
+
+				<div class="skills-list">
+				<h3 id="edu-title">Education:</h3> 
+				<p class="highlight">University of California, Riverside- Bachelor's Degree in Business Administration</p>
+				<p class="highlight">Thinkful Web Development Flex Program</p>
+				<h3 id="skill-title">Skills:</h3>
+				<p class="highlight">Front-end: HTML | CSS | Javascript | JQuery | React | Redux</p>
+				<p class="highlight">Back-end: Node | Express | Mongoose | MongoDB</p>
+				<p class="highlight">Testing: Chai | Mocha | Enzyme</p>
+				<p class="highlight">Version control: Git | Github</p>
+				</div>
+			</div>
+			<div class="divider">-</div>
+		</section>
+
+		<div id="portLink"></div>
+		<h2 id="portTitle">Portfolio</h2>
+
+		<div class="flex-container">
+			<section>
+				<ul id="appDescr-gray">
+					<li>
+						<a target="_blank" href="https://rrogerthat.github.io/nauto-clone/">
+							<img id="capstone-gray" src="./images/nauto_clone.PNG" alt="project screenshot">
+						</a>
+					</li>
+					<div class="border-container">
+						<li>
+							<button><a class="buttonNew" target="_blank" href="https://rrogerthat.github.io/nauto-clone/">Live App</a></button>
+							<button><a class="buttonNew" target="_blank" href="https://github.com/rrogerthat/nauto-clone">Repo</a></button>
+						</li>					
+						<li><span class="appName">Nauto Clone Landing Page</span> is a clone of the
+						<a class="sitelink" target="_blank" href="https://www.nauto.com/">Nauto</a> website that mirrors its visual 
+						elements and dynamic functionalities.</li>
+						<li class="skipline"><span class="listHead">Features</span>: dynamic & mobile responsive navigation bar, video 
+						background displayed relative to browser viewport size, dynamic & mobile responsive manual slideshow/pagination</li>
+						<li class="skipline"><span class="listHead">Technologies used</span>:<br> HTML/CSS, Javascript, JQuery</li>
+					</div>
+				</ul>
+			</section>
+
+			<section>
+				<ul id="appDescr-blue">
+					<li>
+						<a target="_blank" href="https://react-bookmark-app.herokuapp.com/">
+							<img id="capstone-blue" src="./images/React_Capstone.PNG" alt="project screenshot">
+						</a>
+					</li>
+					<div class="border-container">
+						<li>
+							<button><a class="buttonNew" target="_blank" href="https://react-bookmark-app.herokuapp.com/">Live App</a></button>
+							<button><a class="buttonNew" target="_blank" href="https://github.com/rrogerthat/react-capstone-bookmark-app/">Client-side repo</a></button>
+							<button><a class="buttonNew" target="_blank" href="https://github.com/rrogerthat/react-capstone-api">Server-side repo</a></button>
+						</li>
+						<li><span class="appName">Code Progress Journal</span> is a full stack React app allowing you to store your 
+						web development related bookmarks and track your learning progress.</li>
+						<li class="skipline"><span class="listHead">Technologies used</span>:
+							<div>Front-end: HTML/CSS, Javascript, React/Redux</div>
+							<div>Back-end: Node, Express, MongoDB, Mongoose, mLab</div>
+							<div>Testing: Chai, Mocha, Enzyme</div>
+						</li>
+					</div>
+				</ul>
+			</section>
+
+			<section>
+				<ul id="appDescr-green">
+					<li>
+						<a target="_blank" href="https://node-exp-tracker.herokuapp.com/">
+							<img id="capstone-green" src="./images/Node_Capstone.PNG" alt="project screenshot">
+						</a>
+					</li>
+					<div class="border-container">
+						<li>
+							<button><a class="buttonNew" target="_blank" href="https://node-exp-tracker.herokuapp.com/">Live App</a></button>
+							<button><a class="buttonNew" target="_blank" href="https://github.com/rrogerthat/exp-tracker-Node-Capstone-App">Repo</a></button>
+						</li>
+						<li><span class="appName">Wallet Tracker</span> is a CRUD API app that tracks your daily expenditures where 
+						you can add, delete, and edit your expenses and see the total amounts spent by category.</li>
+						<li class="skipline"><span class="listHead">Technologies used</span>:
+							<div>Front-end: HTML/CSS, Javascript, JQuery</div>
+							<div>Back-end: Node, Express, MongoDB, Mongoose, mLab</div>
+							<div>Testing: Chai, Mocha</div>
+						</li>
+					</div>
+				</ul>
+			</section>
+
+			<section>
+				<ul id="appDescr-blue">
+					<li>
+						<a target="_blank" href="https://rrogerthat.github.io/Consumer-Product-Review/">
+							<img id="capstone-blue" src="./images/API_Capstone.PNG" alt="project screenshot">
+						</a>
+					</li>
+					<div class="border-container">
+						<li>
+							<button><a class="buttonNew" target="_blank" href="https://rrogerthat.github.io/Consumer-Product-Review/">Live App</a></button>
+							<button><a class="buttonNew" target="_blank" href="https://github.com/rrogerthat/Consumer-Product-Review">Repo</a></button>
+						</li>
+						<li><span class="appName">Consumer Products Review Search</span> is a third party API app where you can search 
+						for any consumer products you would typically find at your local retailer which would then provide consumer 
+						review feedback along with video reviews.</li>
+						<li class="skipline"><span class="listHead">Technologies used</span>:<br> HTML/CSS, Javascript, JQuery, Walmart 
+						and YouTube API's, Lightbox plugin</li>
+					</div>
+				</ul>
+			</section>
+		</div>
+	</main>
+
+	<footer role="contentinfo" id="contactSec">
+		<div class="divider">-</div>
+		<p class="footDescr"><span id="email">Get in touch with me at: hroger19@gmail.com</span></p>
+		<a class="contact" target="_blank" href="https://github.com/rrogerthat"><img src="./images/github-logo.png" alt="Github icon made by Dave Gandy" style="width:40px"></a>
+		<a class="contact-middle contact" target="_blank" href="https://www.linkedin.com/in/roger-h-12729031/"><img src="./images/linkedin-logo.png" alt="LinkedIn icon made by Round Icons" style="width:40px"></a>
+		<a class="contact" href="mailto:hroger19@email.com"><img src="./images/gmail-logo.png" alt="LinkedIn icon made by Pixel Perfect" style="width:40px"></a>
+		<div class="copyright">© Roger Hwang 2018 - Icons provided by Vectors Market, Freepik, Dave Gandy, Round Icons, 
+		Pixel Perfect  from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a> 
+		is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">
+		CC 3.0 BY</a></div>
+	</footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+</body>
+</html>
