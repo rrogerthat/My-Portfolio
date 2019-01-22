@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  color: #7C3C34;
+  background-color: #F3F3F3; }
+
+a {
+  color: #FCFAFA;
+  text-decoration: none; }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  box-shadow: 0 2px 3px #777;
+  background-color: #A04D43;
+  border-bottom: 1px solid #F0E6E5;
+  font-weight: 600; }
+  nav #bio {
+    margin-left: 5px; }
+  nav #port {
+    margin-left: -28px; }
+  nav #contact {
+    margin-left: -18px; }
+
+.navbar {
+  display: inline-block;
+  font-size: 16px; }
+  .navbar:hover {
+    transform: scale(1.1);
+    transition: 0.4s; }
+  @media only screen and (min-width: 600px) {
+    .navbar {
+      margin-right: 50px;
+      font-size: 18px; } }
+
+.navbar-middle {
+  margin-right: 30px;
+  margin-left: 30px; }
+  @media only screen and (min-width: 600px) {
+    .navbar-middle {
+      margin-right: 50px; } }
+
+.navlinks:hover {
+  font-weight: 600;
+  text-decoration: underline; }
+
+header {
+  padding: 6% 4% 4% 4%; }
+  header h1 {
+    font-size: 48px;
+    font-family: "Oswald", sans-serif;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.3);
+    letter-spacing: 4px; }
+    @media only screen and (min-width: 600px) {
+      header h1 {
+        font-size: 50px; } }
+  header .portrait {
+    border-radius: 15px 50px 30px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    width: 230px;
+    border: 2px solid Whitesmoke; }
+    @media only screen and (min-width: 768px) {
+      header .portrait {
+        width: 260px; } }
+  header .caption {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600; }
+
+main {
+  padding-top: 70px; }
+  main section {
+    min-height: 200px;
+    padding: 15px; }
+
+span {
+  font-weight: bolder; }
+
+.divider {
+  max-width: 60%;
+  height: 0;
+  border-top: 4px solid #A04D43;
+  font-size: 0;
+  margin: 40px auto; }
+
+#bioSec {
+  padding: 2% 6%;
+  background-color: #F1E3E5; }
+  #bioSec .bio-detail {
+    display: inline-block;
+    text-align: left; }
+    #bioSec .bio-detail .skills-list {
+      margin: 0 auto;
+      text-align: left; }
+      @media only screen and (min-width: 600px) {
+        #bioSec .bio-detail .skills-list {
+          max-width: 600px; } }
+    #bioSec .bio-detail h3 {
+      font-weight: 600;
+      text-align: center; }
+    #bioSec .bio-detail #edu-title {
+      margin-top: 60px; }
+    #bioSec .bio-detail .highlight {
+      background-color: #A04D43;
+      padding: 5px;
+      color: #FCFAFA;
+      border: 2px solid #B98B84; }
+
+h2 {
+  font-size: 45px;
+  padding-top: 15px;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px; }
+
+#portLink {
+  /* link to portfolio sec */
+  margin-top: -100px; }
+
+#portTitle {
+  margin-top: 160px; }
+
+ul {
+  list-style: none;
+  padding: 1%;
+  display: inline-block;
+  text-align: left; }
+  ul li:first-child {
+    text-align: center; }
+    @media only screen and (min-width: 768px) {
+      ul li:first-child {
+        margin-bottom: 5px; } }
+
+.appDescr {
+  background-color: #D9DAE1;
+  padding: 0;
+  border-bottom: 2px solid #A04D43; }
+  .appDescr #capstone-gray {
+    border: 2px solid #5B5E73;
+    padding: 5px;
+    box-shadow: 0 2px 10px #5B5E73; }
+    .appDescr #capstone-gray:hover {
+      transition-timing-function: linear;
+      transition: 0.3s;
+      box-shadow: 0px 2px 20px #444757;
+      border-color: #80839b; }
+  .appDescr #capstone-blue {
+    border: 2px solid Cornflowerblue;
+    padding: 5px;
+    box-shadow: 0 2px 10px Cornflowerblue; }
+    .appDescr #capstone-blue:hover {
+      transition-timing-function: linear;
+      transition: 0.3s;
+      box-shadow: 0px 2px 20px #3675E7;
+      border-color: #A9C4F5; }
+  .appDescr #capstone-green {
+    border: 2px solid DarkSeaGreen;
+    padding: 5px;
+    box-shadow: 0 2px 10px DarkSeaGreen; }
+    .appDescr #capstone-green:hover {
+      transition-timing-function: linear;
+      transition: 0.3s;
+      box-shadow: 0px 2px 20px #6FA96F;
+      border-color: #BFD9BF; }
+  .appDescr .border-container {
+    margin-top: -5px;
+    padding: 2% 4%;
+    padding-bottom: 20px; }
+    .appDescr .border-container .appName {
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+      font-size: 18px;
+      font-weight: 400;
+      font-family: "Oswald", sans-serif;
+      margin-right: 2px; }
+    .appDescr .border-container .sitelink {
+      color: #7C3C34;
+      font-weight: bold; }
+      .appDescr .border-container .sitelink:hover {
+        border-bottom: 2px solid; }
+    .appDescr .border-container .skipline {
+      margin-top: 10px; }
+      .appDescr .border-container .skipline .listHead {
+        font-weight: 650;
+        text-decoration: underline;
+        font-family: "Oswald", sans-serif;
+        letter-spacing: 1px; }
+    @media only screen and (min-width: 1024px) {
+      .appDescr .border-container {
+        padding: 2%; } }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .flex-container section {
+    /*so each element same height as the others*/
+    display: flex;
+    max-width: 100%;
+    height: auto; }
+    @media only screen and (min-width: 600px) {
+      .flex-container section {
+        max-width: 80%; } }
+    @media only screen and (min-width: 768px) {
+      .flex-container section {
+        max-width: 50%; } }
+    @media only screen and (min-width: 1024px) {
+      .flex-container section {
+        max-width: 45%; } }
+    @media only screen and (min-width: 2150px) {
+      .flex-container section {
+        max-width: 39%; } }
+  .flex-container img {
+    max-width: 100%; }
+
+button {
+  background: #A04D43;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 2px;
+  border-style: none;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.3);
+  padding: 6px 12px;
+  margin: 3px;
+  letter-spacing: 1px; }
+
+.buttonNew {
+  color: #FCFAFA; }
+  .buttonNew:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s; }
+
+footer {
+  padding: 4% 2%; }
+  footer .footDescr {
+    height: 60px;
+    text-align: center;
+    font-size: 18px; }
+  footer a {
+    color: #A04D43;
+    text-decoration: underline; }
+  footer .contact-middle {
+    margin-right: 30px;
+    margin-left: 30px; }
+    footer .contact-middle:hover {
+      position: relative;
+      top: -5px;
+      opacity: 0.8;
+      transition: 0.5s; }
+  footer .copyright {
+    margin-top: 50px;
+    font-size: 14px; }

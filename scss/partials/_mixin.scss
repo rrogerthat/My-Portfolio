@@ -1,0 +1,30 @@
+//for groups of code
+
+@mixin small-screens() {
+    @media only screen and (min-width: 600px) {
+        @content;   
+    }
+}
+
+@mixin medium-screens() {
+    @media only screen and (min-width: 768px) {
+        @content;   
+    }
+}
+
+@mixin large-screens() {
+    @media only screen and (min-width: 1024px) {
+        @content;   
+    }
+}
+
+@mixin wide-screens() {
+    @media only screen and (min-width: 2150px) {
+        @content;   
+    }
+}
+
+@mixin transition($effect: linear, $time: 0.3s) {
+    transition-timing-function: $effect;
+    transition: $time;
+}
